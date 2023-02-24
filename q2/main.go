@@ -33,5 +33,3 @@ func main() {
 	// Once any output is received on this channel, print it to the console and proceed
 	fmt.Println(<-result)
 }
-
-// https://www.sohamkamani.com/golang/channels/
